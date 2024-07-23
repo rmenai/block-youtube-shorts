@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "block-youtube-shorts"
+version = "0.1.0"
+description = "Block all youtube shorts requests"
+authors = ["Rami Menai <rami.menai@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mitmproxy = "^10.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
